@@ -1,0 +1,31 @@
+name: ae598-arp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - git
+  - jupyter
+  - ipympl
+  - numpy
+  - scipy
+  - sympy
+  - matplotlib
+  - pinocchio
+  - pytorch
+  - torchvision
+  - tensorboard
+  - qpsolvers
+  - mediapy
+  - robot_descriptions
+  - crocoddyl
+  - setuptools=81 # FIXME: pkg_resources was removed in newer versions of setuptools,
+                  # and other packages like tensorboard still haven't caught up
+  - moviepy
+  - pip:
+    - git+https://github.com/meshcat-dev/meshcat-python.git
+    - git+https://github.com/stephane-caron/meshcat-shapes.git
+    - mujoco>=3.4.0
+    - 'stable-baselines3[extra]'
+    - 'gymnasium[mujoco]'
+    - ompl
