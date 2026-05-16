@@ -4,7 +4,7 @@
 
 **Files:**
 
-* `fetch_tamp.ipynb` / `final_proj.py`: Core simulation, kinematics, TAMP state machine, and CBF safety filter.
+* `fetch_tamp.ipynb`: Core simulation, kinematics, TAMP state machine, and CBF safety filter.
 * `cbf_multi_eval.png`: Output plot evaluating robot-to-obstacle safety distances.
 
 **How to Reproduce:**
